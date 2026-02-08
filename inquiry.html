@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inquiry - Kshitij International</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <h2>Kshitij International</h2>
+            </div>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="products.html">Products <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="machines.html">Machines</a></li>
+                        <li><a href="molds.html">Molds</a></li>
+                        <li><a href="pigments.html">Color Pigments</a></li>
+                    </ul>
+                </li>
+                <li><a href="inquiry.html" class="active">Inquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="hero" style="padding: 80px 0 60px;">
+        <div class="container hero-content">
+            <h1 class="hero-title" style="font-size: 2.5rem;">Send Us an Inquiry</h1>
+            <p class="hero-description">Fill out the form below and we'll get back to you as soon as possible</p>
+        </div>
+    </section>
+
+    <!-- Inquiry Form Section -->
+    <section style="padding: 60px 0;">
+        <div class="container">
+            <div class="form-container">
+                <form id="inquiry-form">
+                    <input type="hidden" name="_subject" value="New Inquiry from Kshitij International Website">
+                    <input type="hidden" name="_template" value="table">
+                    
+                    <div class="form-group">
+                        <label for="name">Full Name <span style="color: var(--danger);">*</span></label>
+                        <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address <span style="color: var(--danger);">*</span></label>
+                        <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number <span style="color: var(--danger);">*</span></label>
+                        <input type="tel" id="phone" name="phone" required placeholder="+977 XXXXXXXXXX">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="company">Company Name (Optional)</label>
+                        <input type="text" id="company" name="company" placeholder="Your company name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="product-category">Product Category <span style="color: var(--danger);">*</span></label>
+                        <select id="product-category" name="product_category" required>
+                            <option value="">Select a category</option>
+                            <option value="Machines">Machines</option>
+                            <option value="Molds">Molds</option>
+                            <option value="Color Pigments">Color Pigments</option>
+                            <option value="Complete Solution">Complete Solution (Factory Setup)</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="products">Specific Products (Optional)</label>
+                        <input type="text" id="products" name="products" placeholder="e.g., Concrete Mixer, Zig-Zag Mold, Red Pigment">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="quantity">Estimated Quantity (Optional)</label>
+                        <input type="text" id="quantity" name="quantity" placeholder="e.g., 2 mixers, 10 molds">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="location">Delivery Location <span style="color: var(--danger);">*</span></label>
+                        <input type="text" id="location" name="location" required placeholder="City, District">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message / Requirements <span style="color: var(--danger);">*</span></label>
+                        <textarea id="message" name="message" required placeholder="Please describe your requirements, timeline, or any questions you have..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">
+                        <i class="fas fa-paper-plane"></i> Send Inquiry
+                    </button>
+                </form>
+
+                <div style="margin-top: 2rem; padding: 1.5rem; background: var(--bg-light); border-radius: 8px;">
+                    <h3 style="margin-bottom: 1rem; color: var(--text-dark);">Prefer Direct Contact?</h3>
+                    <p style="margin-bottom: 1rem; color: var(--text-light);">You can also reach us directly:</p>
+                    <ul style="list-style: none; color: var(--text-light);">
+                        <li style="margin-bottom: 0.5rem;"><i class="fas fa-phone" style="color: var(--primary-color); margin-right: 0.5rem;"></i> <strong>Phone:</strong> +977 9852029937</li>
+                        <li style="margin-bottom: 0.5rem;"><i class="fas fa-envelope" style="color: var(--primary-color); margin-right: 0.5rem;"></i> <strong>Email:</strong> contact@kshitijinternational.com.np</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Kshitij International</h3>
+                    <p>Leading supplier for machinery, paver molds and color pigments in Nepal.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="inquiry.html">Inquiry</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="machines.html">Machines</a></li>
+                        <li><a href="molds.html">Molds</a></li>
+                        <li><a href="pigments.html">Color Pigments</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +977 9852029937</li>
+                        <li><i class="fas fa-envelope"></i> contact@kshitijinternational.com.np</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Nepal</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Kshitij International. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AI Chatbot Widget -->
+    <div id="chatbot-widget" class="chatbot-widget">
+        <button id="chatbot-toggle" class="chatbot-toggle">
+            <i class="fas fa-comments"></i>
+        </button>
+        <div id="chatbot-container" class="chatbot-container hidden">
+            <div class="chatbot-header">
+                <h3><i class="fas fa-robot"></i> Kshitij Assistant</h3>
+                <button id="chatbot-close" class="chatbot-close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div id="chatbot-messages" class="chatbot-messages">
+                <div class="bot-message">
+                    <p>Hello! I'm here to help you with information about our machinery, molds, and color pigments. How can I assist you today?</p>
+                </div>
+            </div>
+            <div class="chatbot-input-container">
+                <input type="text" id="chatbot-input" placeholder="Type your message...">
+                <button id="chatbot-send"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="chatbot.js"></script>
+</body>
+</html>

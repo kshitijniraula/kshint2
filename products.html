@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Kshitij International</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <h2>Kshitij International</h2>
+            </div>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="products.html" class="active">Products <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="machines.html">Machines</a></li>
+                        <li><a href="molds.html">Molds</a></li>
+                        <li><a href="pigments.html">Color Pigments</a></li>
+                    </ul>
+                </li>
+                <li><a href="inquiry.html">Inquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero" style="padding: 80px 0 60px;">
+        <div class="container hero-content">
+            <h1 class="hero-title" style="font-size: 2.5rem;">Our Products</h1>
+            <p class="hero-description">Explore our complete range of machinery, molds, and color pigments</p>
+        </div>
+    </section>
+
+    <section style="padding: 60px 0;">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 3rem; margin-bottom: 4rem;">
+                <div class="feature-card" style="cursor: pointer;" onclick="window.location.href='machines.html'">
+                    <i class="fas fa-cogs" style="font-size: 4rem; color: var(--primary-color); margin-bottom: 1.5rem;"></i>
+                    <h2 style="font-size: 2rem; margin-bottom: 1rem;">Machines</h2>
+                    <p style="font-size: 1.1rem; color: var(--text-light); margin-bottom: 1.5rem;">High-quality construction machinery for concrete production</p>
+                    <a href="machines.html" class="btn btn-primary">View Machines <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="feature-card" style="cursor: pointer;" onclick="window.location.href='molds.html'">
+                    <i class="fas fa-th" style="font-size: 4rem; color: var(--primary-color); margin-bottom: 1.5rem;"></i>
+                    <h2 style="font-size: 2rem; margin-bottom: 1rem;">Molds</h2>
+                    <p style="font-size: 1.1rem; color: var(--text-light); margin-bottom: 1.5rem;">Diverse paver molds for beautiful interlocking tiles</p>
+                    <a href="molds.html" class="btn btn-primary">View Molds <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="feature-card" style="cursor: pointer;" onclick="window.location.href='pigments.html'">
+                    <i class="fas fa-paint-brush" style="font-size: 4rem; color: var(--primary-color); margin-bottom: 1.5rem;"></i>
+                    <h2 style="font-size: 2rem; margin-bottom: 1rem;">Color Pigments</h2>
+                    <p style="font-size: 1.1rem; color: var(--text-light); margin-bottom: 1.5rem;">Premium LANXESS synthetic iron oxide pigments</p>
+                    <a href="pigments.html" class="btn btn-primary">View Pigments <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div style="text-align: center; padding: 3rem; background: var(--bg-light); border-radius: 12px;">
+                <h2 style="font-size: 2rem; margin-bottom: 1rem;">Complete Factory Solutions</h2>
+                <p style="font-size: 1.1rem; color: var(--text-light); margin-bottom: 2rem; max-width: 700px; margin-left: auto; margin-right: auto;">We provide comprehensive solutions for starting concrete product factories. Get all the machinery, molds, and pigments you need in one place.</p>
+                <a href="inquiry.html" class="btn btn-primary btn-large" style="padding: 1rem 2.5rem; font-size: 1.1rem;">Request a Quote <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Kshitij International</h3>
+                    <p>Leading supplier for machinery, paver molds and color pigments in Nepal.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="inquiry.html">Inquiry</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="machines.html">Machines</a></li>
+                        <li><a href="molds.html">Molds</a></li>
+                        <li><a href="pigments.html">Color Pigments</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +977 9852029937</li>
+                        <li><i class="fas fa-envelope"></i> contact@kshitijinternational.com.np</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Nepal</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Kshitij International. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="chatbot-widget" class="chatbot-widget">
+        <button id="chatbot-toggle" class="chatbot-toggle">
+            <i class="fas fa-comments"></i>
+        </button>
+        <div id="chatbot-container" class="chatbot-container hidden">
+            <div class="chatbot-header">
+                <h3><i class="fas fa-robot"></i> Kshitij Assistant</h3>
+                <button id="chatbot-close" class="chatbot-close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div id="chatbot-messages" class="chatbot-messages">
+                <div class="bot-message">
+                    <p>Hello! I'm here to help you with information about our machinery, molds, and color pigments. How can I assist you today?</p>
+                </div>
+            </div>
+            <div class="chatbot-input-container">
+                <input type="text" id="chatbot-input" placeholder="Type your message...">
+                <button id="chatbot-send"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="chatbot.js"></script>
+</body>
+</html>
